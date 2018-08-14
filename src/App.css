@@ -108,6 +108,14 @@ body {
     background-color: #fff; }
 
 /* Preloader media queries styles */
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 374px) {
   .preloader {
     width: 40%; } }
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .preloader {
+    width: 33% !important; } }
+
+@media screen and (min-width: 375px) {
+  .preloader {
+    width: 33% !important; } }
