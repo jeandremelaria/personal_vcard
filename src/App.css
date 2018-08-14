@@ -126,3 +126,8 @@ body {
   .preloader {
     width: 20% !important;
     padding-left: 1.8rem; } }
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+  .preloader {
+    width: 15% !important;
+    padding-left: 1.8rem; } }
