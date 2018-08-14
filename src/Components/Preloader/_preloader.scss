@@ -54,9 +54,15 @@
       padding-left:1.8rem;
    }
 }
-@media screen and (min-width:1366px) and (max-width:1440px){
+@media screen and (min-width:1367px) and (max-width:1440px){
    .preloader {
      width:10%!important;
       padding-left:1.5rem;
+   }
+}
+@media screen and (min-width:1707px){
+   .preloader {
+     width:8%!important;
+      padding-left:1.2rem;
    }
 }
