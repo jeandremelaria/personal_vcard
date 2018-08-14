@@ -6,9 +6,8 @@
   width:20%;
   padding-left:0.8rem;
   top:50vh;
-}
 
-.preloaderCircle {
+  &Circle {
   display:inline-block;
   width:1rem;
   height:1rem;
@@ -21,6 +20,7 @@
     &--white {
       background-color:$tertiaryColor;
     }
+}
 }
 
 /* Preloader media queries styles */
