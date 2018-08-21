@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Preloader from './Components/Preloader/Preloader';
+import Home from './Components/Layout/Home/Home';
 
 class App extends Component {
   constructor(){
@@ -18,7 +19,7 @@ class App extends Component {
 
   render() {
     const isLoading = this.state.isLoading;
-    return ( isLoading ? <Preloader/> : <p>Test</p> );
+    return ( isLoading ? <Preloader/> : <Home/> );
   }
 }
 
