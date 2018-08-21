@@ -9,7 +9,7 @@ class App extends Component {
     this.state = { isLoading: true }
   }
   
-  componentDidMount(){
+  componentWillMount(){
     // Set isLoading to false after DOM is rendered
     // this.setState({ isLoading: false}, ()=>{
     //   console.log(this.state.isLoading);
