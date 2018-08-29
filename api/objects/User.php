@@ -17,6 +17,11 @@
     public $profile_summarry;
     public $website_url;
     public $website_logo;
+    public $facebook;
+    public $instagram;
+    public $twitter;
+    public $dribbble;
+
 
     // Constructor with $db as database connection
     public function __construct($db) {
@@ -27,7 +32,7 @@
     function read() {
         
         // Select all query
-        $query = 'SELECT * FROM ' . $this->table_name;
+        $query = 'SELECT * FROM ' .$this->table_name. ' INNER JOIN socialmedia ON user.id = socialmedia.id_user';
         
         // Prepare query statement
         $stmt = $this->conn->prepare($query);

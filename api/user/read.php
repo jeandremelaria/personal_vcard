@@ -45,7 +45,11 @@
                 'profile_photo' => $profile_photo,
                 'profile_summary' => html_entity_decode($profile_summary),
                 'website_url' => $website_url,
-                'website_logo' => $website_logo
+                'website_logo' => $website_logo,
+                'facebook' => $facebook,
+                'instagram' => $instagram,
+                'twitter' => $twitter,
+                'dribbble' => $dribbble
             );
             array_push($user_arr['records'], $user_item);
         }
